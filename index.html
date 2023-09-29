@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Basico Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo2.png">
+    <!-- ICONOS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+    <!-- JAVASCRIPT -->
+    <script src="main.js" defer></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-box-logo">
+            <img class="header-box-logo_logo" loading="lazy" src="img/logo4.png" alt="logo">
+        </div>
+
+        <div class="header-box-menuBtn">
+            <i id="btnMenu" class="fas fa-bars header-box-menuBtn_menuBtn"></i>
+        </div>
+        
+
+        <nav id="menu" class="header-nav">
+            <a class="active" href="#inicio">Inicio</a>
+            <a href="#nuestro-lugar">Nuestro Lugar</a>
+            <a href="#nuestra-carta">Nuestra Carta</a>
+            <a href="#sobre-nosotros">Sobre nosotros</a>
+            <a href="#reserva">Reserva</a>
+        </nav>
+    </header>
+
+    <!-- SECTION 1: INICIO -->
+    <section id="inicio" class="section1-inicio">
+        <video autoplay="true" muted loop="true">
+            <source src="img/video2.mp4">
+        </video>
+    </section>
+
+    <hr class="charlie">
+    <!-- SECTION 2 -->
+    <section id="nuestro-lugar" class="section2">
+        <h1 class="section2-titulo">Sabor y Elegancia en Cada Bocado: Tu Destino Gastronómico</h1>
+        <p class="section2-texto">"Bienvenido a nuestro espacio gastronómico, donde la pasión por la comida se combina con la sofisticación en un lugar que deleita los sentidos."</p>
+        <img class="section2-img" loading="lazy" src="img/foto1.jpg" alt="imagenlugar1">
+        <img class="section2-img" loading="lazy" src="img/foto2.jpg" alt="imagenlugar2">
+    </section>
+    
+    <hr class="charlie">
+    <!-- SECTION 3 -->
+    <section id="nuestra-carta" class="section3">
+        <h2 class="section3-titulo">Nuestra Carta</h2>
+        <div class="section3-boxImg">
+            <img src="img/menu3.jpg" loading="lazy" alt="imagenmenu3">
+            <h3>Menú</h3>
+        </div>
+        <div class="section3-boxImg">
+            <img src="img/bebidas4.jpg" loading="lazy" alt="imagenbebidas4">
+            <h3>Bebidas</h3>
+        </div>
+        <div class="section3-boxImg">
+            <img src="img/vinos5.jpg" loading="lazy" alt="imagenvubis5">
+            <h3>Vinos</h3>
+        </div>
+    </section>
+
+    <hr class="charlie">
+    <!-- SECTION 4 -->
+    <section id="sobre-nosotros" class="section4">
+        <h2 class="section4-titulo">Sobre Nosotros</h2>
+        <div class="section4-boxImgContent">
+            <img class="section4-img" loading="lazy" src="img/cocineros6.jpg" alt="imagensobrenostros6">
+            <div class="section4-boxImg2">
+                <img class="section4-img section4-img2" loading="lazy" src="img/chef7.jpg" alt="imagensobrenostros7">
+                <h3 class="section4-tituloChico">Chef Pepito Rodriguez</h3>
+            </div>
+        </div>
+        
+
+        <p class="section4-texto">Nuestro talentoso grupo de cocineros es el corazón y el alma de nuestro lugar gastronómico. Con una pasión inquebrantable por la cocina y una dedicación a la excelencia culinaria, cada miembro de nuestro equipo trabaja incansablemente para crear experiencias gastronómicas memorables.</p>
+    </section>
+
+    <hr class="charlie">
+    <!-- SECTION 5 -->
+    <section id="reserva" class="section5">
+        <img class="section5-fondo" loading="lazy" src="img/fondo8.png" alt="fondo8">
+        <h2 class="section5-titulo">RESERVAS</h2>
+        <p class="section5-texto">Sumérgete en un ambiente elegante y acogedor mientras exploras nuestro menú cuidadosamente elaborado y disfrutas de una experiencia gastronómica única.</p>
+        <button class="section5-btn">HACER TU RESERVA</button>
+        <ul class="section5-info">
+            <li><i class="fas fa-map-marker-alt"></i>Dr. Ejemplo 456. Calle Ejemplo</li>
+            <li><i class="fas fa-phone"></i>+12 (345) 678 9101</li>
+            <li><i class="far fa-envelope"></i>ejemplodemail@ejemplo.com</li>
+            <li><i class="fas fa-map-marked-alt"></i>Ejemplo y Ejemplo</li>
+        </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-redes">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <img class="footer-logo" loading="lazy" src="img/logo4.png" alt="logo">
+
+        <p class="footer-texto">
+            Dr. Ejemplo 456. Calle Ejemplo
+            <br>
+            Ejemplo y Ejemplo
+        </p>
+
+        <div class="footer-divisor"></div>
+
+        <p class="footer-texto">NombreEmpresa 2023. Todos los derechos reservados - Política de privacidad</p>
+
+        <p class="footer-texto">Hecho por <a class="footer-texto-resaltado" href="index.html">Devi</a></p>
+
+    </footer>
+</body>
+</html>
